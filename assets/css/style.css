@@ -1,13 +1,13 @@
 body {
-    background: #FFFFF0;
+    background: #eeeeee;
     text-align: center;
     width: 400px;
-    padding: 10px;
-
+    margin: 0;
+    padding: 0;
 }
 
 button {
-    background: #e98f02;
+    background: #4e1b08;
     border: none;
     padding: 5px 20px;
     border-radius: 3px;
@@ -18,13 +18,12 @@ button {
 
 
 button:hover {
-    background: #e5a643;
+    background: #2f0d00;
 }
 
 button.fill {
     float: right;
 }
-
 
 
 .inputbox {
@@ -36,29 +35,54 @@ button.fill {
     padding: 4px;
     border: none;
     border-radius: 0 3px 3px 0;
-    width: 100px;
+    width: 80px;
 
 }
+.inputbox label {
+
+    padding: 3px 6px;
+    border-radius: 3px 0 0 3px;
+    background: #2f0d00;
+    color: #ffffff;
+    font-size: 12pt;
+}
+hr{
+    margin: 20px
+}
+.inputbox-full {
+    display: inline;
+}
+
+.inputbox-full input {
+
+    padding: 4px;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    width: 150px;
+
+}
+.inputbox-full label {
+
+    padding: 3px 6px;
+    border-radius: 3px 0 0 3px;
+    background: #2f0d00;
+    color: #ffffff;
+    font-size: 12pt;
+}
+
 
 *:focus {
     outline: none;
 }
 
-.inputbox label {
 
-    padding: 3px 6px;
-    border-radius: 3px 0 0 3px;
-    background: #e5a643;
-    color: #ffffff;
-    font-size: 12pt;
-}
 
 #keys {
     margin: 10px 0;
     background: #ffffff;
-    padding: 10px;
     max-height: 300px;
     overflow: auto;
+    padding: 10px 0;
 }
 
 #keys table {
@@ -67,8 +91,37 @@ button.fill {
 
 
 #keys table tr th {
-    background: #e5a643;
+    background: #2f0d00;
     color: #ffffff;
+}
+
+#keys table tr td {
+    max-width: 50px;
+    overflow: hidden;
+    padding: 3px;
+}
+#pressets {
+    margin: 10px 0;
+    background: #ffffff;
+    max-height: 300px;
+    overflow: auto;
+    padding: 10px 0;
+}
+
+#pressets table {
+    width: 100%;
+}
+
+
+#pressets table tr th {
+    background: #2f0d00;
+    color: #ffffff;
+}
+
+#pressets table tr td {
+    max-width: 50px;
+    overflow: hidden;
+    padding: 3px;
 }
 
 * {
@@ -76,15 +129,23 @@ button.fill {
 }
 
 .title * {
-    display: inline;
     height: 30px;
     vertical-align: middle;
-    color: #e98f02;
+    color: #fff;
+    font-size: 1.3em;
 }
 
 .title {
     margin-bottom: 10px;
+    background: #4e1500;
+    padding: 10px 20px;
+    box-sizing: border-box;
 
+}
+
+.conteudo {
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .clear {
@@ -99,4 +160,8 @@ button.fill {
 
     flex-flow: row;
     flex-wrap: wrap;
+}
+
+.col-bt-preset{
+    text-align: right;
 }
