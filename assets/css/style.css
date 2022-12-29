@@ -1,0 +1,102 @@
+body {
+    background: #FFFFF0;
+    text-align: center;
+    width: 400px;
+    padding: 10px;
+
+}
+
+button {
+    background: #e98f02;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 3px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background: #e5a643;
+}
+
+button.fill {
+    float: right;
+}
+
+
+
+.inputbox {
+    display: inline;
+}
+
+.inputbox input {
+
+    padding: 4px;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    width: 100px;
+
+}
+
+*:focus {
+    outline: none;
+}
+
+.inputbox label {
+
+    padding: 3px 6px;
+    border-radius: 3px 0 0 3px;
+    background: #e5a643;
+    color: #ffffff;
+    font-size: 12pt;
+}
+
+#keys {
+    margin: 10px 0;
+    background: #ffffff;
+    padding: 10px;
+    max-height: 300px;
+    overflow: auto;
+}
+
+#keys table {
+    width: 100%;
+}
+
+
+#keys table tr th {
+    background: #e5a643;
+    color: #ffffff;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+.title * {
+    display: inline;
+    height: 30px;
+    vertical-align: middle;
+    color: #e98f02;
+}
+
+.title {
+    margin-bottom: 10px;
+
+}
+
+.clear {
+    clear: both;
+}
+
+.flex-container {
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+
+    flex-flow: row;
+    flex-wrap: wrap;
+}
