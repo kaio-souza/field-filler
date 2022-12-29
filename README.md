@@ -10,9 +10,9 @@ A simple chrome extension to fill form values by input name
 * Load Extension folder
 
 # how to save preset
-* Open the base page
-* Fill the inputs
+* Open the base page and fill the form inputs
 * Fill the field *Preset Name* and click *Get All*
+* Click in Use to see captured fields
 
 # How to Add other field names on Preset
 * Fill the name of input,  value and click in **ADD**
