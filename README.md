@@ -9,7 +9,16 @@ A simple chrome extension to fill form values by input name
 * In your chrome Extension Manager (`chrome://extensions/`), enable `Developer Mode`
 * Load Extension folder
 
-# how to use
+# how to save preset
+* Open the base page
+* Fill the inputs
+* Fill the field *Preset Name* and click *Get All*
+
+# How to Add other field names on Preset
 * Fill the name of input,  value and click in **ADD**
-* Open the form page
+
+# how to apply
+* open or refresh the page
 * Click **Fill**
+
+
